@@ -36,5 +36,5 @@ xattr -dr com.apple.quarantine "$DEST/SnapPaste.app" 2>/dev/null || true
 echo "✓ SnapPaste installed in $DEST"
 if [ -z "$SNAPPASTE_DEST" ]; then
   open "$DEST/SnapPaste.app"
-  echo "  The quick tour is opening now."
+  echo "  Opening SnapPaste…"
 fi
